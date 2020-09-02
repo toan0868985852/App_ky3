@@ -39,7 +39,14 @@ namespace bai1
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                this.DebugSettings.EnableFrameRateCounter = true;
+            }
+
             Frame rootFrame = Window.Current.Content as Frame;
+
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
@@ -66,7 +73,7 @@ namespace bai1
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(bai4), e.Arguments);
+                    rootFrame.Navigate(typeof(bai5), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

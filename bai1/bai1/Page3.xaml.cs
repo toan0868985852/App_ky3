@@ -27,6 +27,12 @@ namespace bai1
             this.InitializeComponent();
 
         }
-      
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            var value = (string)e.Parameter;
+            ValueTexbox.Text = value;
+        }
+
     }
 }

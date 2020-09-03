@@ -49,9 +49,11 @@ namespace bai1
             }
         }
 
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        
+
+        private void NavicationButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Page2));
+            this.Frame.Navigate(typeof(Page2));
         }
     }
 }

@@ -79,8 +79,20 @@
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai4.xbf">
       <PackagePath>bai4.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai5.xbf">
+      <PackagePath>bai5.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page1.xbf">
+      <PackagePath>Page1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page2.xbf">
+      <PackagePath>Page2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page3.xbf">
+      <PackagePath>Page3.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

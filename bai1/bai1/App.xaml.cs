@@ -21,7 +21,11 @@ namespace bai1
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     sealed partial class App : Application
+
+
     {
+
+        internal static string SomeValuve;
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -40,10 +44,7 @@ namespace bai1
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
-                this.DebugSettings.EnableFrameRateCounter = true;
-            }
+            
 
             Frame rootFrame = Window.Current.Content as Frame;
 

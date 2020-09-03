@@ -10,7 +10,7 @@
 
     <StackPanel>
         <TextBlock FontSize="48" Text="Page 2" />
-        <TextBlock Name="ValueTexbox" Width="200"/>
+        <TextBox Name="ValueTexbox" Width="200"/>
         <HyperlinkButton Content="Go to page 3" Click="HyperlinkButton_Click"/>
     </StackPanel>
 </Page>

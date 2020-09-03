@@ -31,5 +31,14 @@ namespace bai1
         {
             Frame.Navigate(typeof(Page3), ValueTexbox.Text);
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if(!string.IsNullOrEmpty(App.SomeValuve))
+            {
+                ValueTexbox.Text = App.SomeValuve;
+            }
+        }
+        
     }
 }

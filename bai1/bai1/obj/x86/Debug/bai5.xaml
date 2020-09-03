@@ -10,14 +10,15 @@
 
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Button Margin="0,0,20,0" Content="Home" Click="home"/>
-            <Button Margin="0,0,20,0" Content="Back" Click="back"/>
-            <Button Margin="0,0,20,0" Content="Forward" Click="forward"/>
-            <Button Margin="0,0,20,0" Content="NavicationButton" Click="NavicationButton_Click"/>
+            <Button x:ConnectionId='3' Margin="0,0,20,0" Content="Home"             />
+            <Button x:ConnectionId='4' Margin="0,0,20,0" Content="Back"             />
+            <Button x:ConnectionId='5' Margin="0,0,20,0" Content="Forward"                />
+            <Button x:ConnectionId='6' Margin="0,0,20,0" Content="NavicationButton"                               />
         </StackPanel>
-        <Frame Name="MyFrame">
+        <Frame x:ConnectionId='2' Name="MyFrame">
             
         </Frame>
       
     </StackPanel>
 </Page>
+

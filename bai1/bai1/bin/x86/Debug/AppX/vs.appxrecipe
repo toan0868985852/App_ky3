@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-01T16:54:54.467</Modified>
+      <Modified>2020-09-03T07:32:15.028</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai1.exe">
       <PackagePath>entrypoint\bai1.exe</PackagePath>
-      <Modified>2020-09-01T16:54:46.722</Modified>
+      <Modified>2020-09-03T07:32:14.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,27 +86,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai1.xr.xml">
       <PackagePath>bai1.xr.xml</PackagePath>
-      <Modified>2020-09-01T16:54:46.410</Modified>
+      <Modified>2020-09-03T07:08:11.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-01T16:54:46.481</Modified>
+      <Modified>2020-09-03T07:32:14.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai2.xbf">
       <PackagePath>bai2.xbf</PackagePath>
-      <Modified>2020-09-01T16:54:46.481</Modified>
+      <Modified>2020-09-03T07:32:14.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai3.xbf">
       <PackagePath>bai3.xbf</PackagePath>
-      <Modified>2020-09-01T16:54:46.481</Modified>
+      <Modified>2020-09-03T07:32:14.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai4.xbf">
       <PackagePath>bai4.xbf</PackagePath>
-      <Modified>2020-09-01T16:54:46.481</Modified>
+      <Modified>2020-09-03T07:32:14.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\bai5.xbf">
+      <PackagePath>bai5.xbf</PackagePath>
+      <Modified>2020-09-03T07:32:14.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-01T16:54:46.481</Modified>
+      <Modified>2020-09-03T07:32:14.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page1.xbf">
+      <PackagePath>Page1.xbf</PackagePath>
+      <Modified>2020-09-03T07:32:14.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page2.xbf">
+      <PackagePath>Page2.xbf</PackagePath>
+      <Modified>2020-09-03T07:32:14.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Page3.xbf">
+      <PackagePath>Page3.xbf</PackagePath>
+      <Modified>2020-09-03T07:32:14.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-01T16:54:48.495</Modified>
+      <Modified>2020-09-03T07:06:09.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\bai1\bai1\bin\x86\Debug\Core\bai1.exe">
       <PackagePath>bai1.exe</PackagePath>
-      <Modified>2020-09-01T16:54:54.288</Modified>
+      <Modified>2020-09-03T07:32:15.018</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

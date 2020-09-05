@@ -97,6 +97,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\Assets\video.mp4">
+      <PackagePath>Assets\video.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -112,6 +115,12 @@
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai4.xbf">
       <PackagePath>bai4.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai5.xbf">
+      <PackagePath>bai5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai6.xbf">
+      <PackagePath>bai6.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
     </AppxPackagedFile>
@@ -123,6 +132,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\video.xbf">
+      <PackagePath>video.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

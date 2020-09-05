@@ -60,5 +60,22 @@ namespace lab5
         {
             ToggleButtonResultTextBlock.Text = MyToggleButton.IsChecked.ToString();
         }
+
+        private void RadioButton_Checked2(object sender, RoutedEventArgs e)
+        {
+
+            if ((bool)YesradioButton2.IsChecked)
+            {
+                RadioButtontextBolock2.Text = "Nam";
+            }
+            else if ((bool)NoradioButton2.IsChecked)
+            {
+                RadioButtontextBolock2.Text = "Nu";
+            }
+            else
+            {
+                RadioButtontextBolock2.Text = "Khac";
+            }
+        }
     }
 }

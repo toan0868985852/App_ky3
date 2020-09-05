@@ -117,5 +117,27 @@
                 </ToggleSwitch.OnContent>
             </ToggleSwitch>
         </StackPanel>
+        <TextBlock Grid.Row="9"
+                   Text="RadioButton"
+                   VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="9"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="20,10,0,10">
+            <RadioButton x:Name="YesradioButton2"
+                         Content="Nam"
+                         GroupName="MyGroup"
+                         Checked="RadioButton_Checked2"/>
+            <RadioButton x:Name="NoradioButton2"
+                         Content="Nu"
+                         GroupName="MyGroup"
+                         Checked="RadioButton_Checked2"/>
+            <RadioButton x:Name="khacradioButton2"
+                         Content="khac"
+                         GroupName="MyGroup"
+                         Checked="RadioButton_Checked2"/>
+            <TextBlock x:Name="RadioButtontextBolock2"/>
+        </StackPanel>
+        
     </Grid>
 </Page>

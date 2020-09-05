@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="bai3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:bai3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Grid Name="ColorGrid">
+        <TextBlock Name="MessageTextBlock"
+                   Text="Hello VisualstataManager"/>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="visualStateGroup">
+                <VisualState x:Name="visualStatePhone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ColorGrid.Backgroud" Value="Red"/>
+                        <Setter Target="MessageTextBlock.FontSize" Value="18"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="VisualSateTable">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ColorGrid.Backgroud" Value="Yellow"/>
+                        <Setter Target="MessageTextBlock.FontSize" Value="36"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="VisualSateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ColorGrid.Backgroud" Value="Blue"/>
+                        <Setter Target="MessageTextBlock.FontSize" Value="54"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>

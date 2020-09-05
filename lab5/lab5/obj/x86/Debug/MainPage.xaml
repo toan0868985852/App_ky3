@@ -30,11 +30,11 @@
         <StackPanel Grid.Row="1"
                     Margin="20,10,0,10"
                     Orientation="Horizontal">
-            <CheckBox x:ConnectionId='12' x:Name="MychecBox"
+            <CheckBox x:ConnectionId='16' x:Name="MychecBox"
                       Content="Argee?"
                                                />
 
-            <TextBlock x:ConnectionId='13' x:Name="CheckBlockResultTextBox"/>
+            <TextBlock x:ConnectionId='17' x:Name="CheckBlockResultTextBox"/>
         </StackPanel>
         <TextBlock Grid.Row="2"
                    Text="RadioButton"
@@ -43,15 +43,15 @@
                     Grid.Column="1"
                     Orientation="Horizontal"
                     Margin="20,10,0,10">
-            <RadioButton x:ConnectionId='9' x:Name="YesradioButton"
+            <RadioButton x:ConnectionId='13' x:Name="YesradioButton"
                          Content="Yes"
                          GroupName="MyGroup"
                                                       />
-            <RadioButton x:ConnectionId='10' x:Name="NoradioButton"
+            <RadioButton x:ConnectionId='14' x:Name="NoradioButton"
                          Content="No"
                          GroupName="MyGroup"
                                                       />
-            <TextBlock x:ConnectionId='11' x:Name="RadioButtontextBolock"/>
+            <TextBlock x:ConnectionId='15' x:Name="RadioButtontextBolock"/>
         </StackPanel>
         <TextBlock x:ConnectionId='2' Grid.Row="3"
                    Text="ComboBox"
@@ -61,23 +61,23 @@
                     Grid.Row="3"
                     Grid.Column="1"
                     Margin="20,10,0,10">
-            <ComboBox x:ConnectionId='7'                                           >
+            <ComboBox x:ConnectionId='11'                                           >
                 <ComboBoxItem Content="Fourth"/>
                 <ComboBoxItem Content="Fifth"/>
                 <ComboBoxItem Content="Sixth" IsSelected="True"/>
             </ComboBox>
-            <TextBlock x:ConnectionId='8' x:Name="ComboBoxResultTextBlock"/>
+            <TextBlock x:ConnectionId='12' x:Name="ComboBoxResultTextBlock"/>
         </StackPanel>
         <TextBlock Grid.Row="4" Text="LitBox" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="4" Grid.Column="1" Margin="20,10,0,10">
-            <ListBox x:ConnectionId='5' Name="MylistBox"
+            <ListBox x:ConnectionId='9' Name="MylistBox"
                      SelectionMode="Multiple"
                                                                 >
                 <ListBoxItem Content="First"/>
                 <ListBoxItem Content="Second"/>
                 <ListBoxItem Content="Third"/>
             </ListBox>
-            <TextBlock x:ConnectionId='6' x:Name="ListBoxResultTextBox"/>
+            <TextBlock x:ConnectionId='10' x:Name="ListBoxResultTextBox"/>
         </StackPanel>
 
         <TextBlock Grid.Row="5" Text="Image" VerticalAlignment="Center"/>
@@ -95,11 +95,11 @@
                     Grid.Row="7"
                     Grid.Column="1"
                     Margin="20,10,0,10">
-            <ToggleButton x:ConnectionId='3' x:Name="MyToggleButton"
+            <ToggleButton x:ConnectionId='7' x:Name="MyToggleButton"
                           Content="Premium Option"
                           IsThreeState="True"
                                                       />
-            <TextBlock x:ConnectionId='4' Name="ToggleButtonResultTextBlock"/>
+            <TextBlock x:ConnectionId='8' Name="ToggleButtonResultTextBlock"/>
         </StackPanel>
 
         <TextBlock Grid.Row="8"
@@ -117,6 +117,28 @@
                 </ToggleSwitch.OnContent>
             </ToggleSwitch>
         </StackPanel>
+        <TextBlock Grid.Row="9"
+                   Text="RadioButton"
+                   VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="9"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="20,10,0,10">
+            <RadioButton x:ConnectionId='3' x:Name="YesradioButton2"
+                         Content="Nam"
+                         GroupName="MyGroup"
+                                                       />
+            <RadioButton x:ConnectionId='4' x:Name="NoradioButton2"
+                         Content="Nu"
+                         GroupName="MyGroup"
+                                                       />
+            <RadioButton x:ConnectionId='5' x:Name="khacradioButton2"
+                         Content="khac"
+                         GroupName="MyGroup"
+                                                       />
+            <TextBlock x:ConnectionId='6' x:Name="RadioButtontextBolock2"/>
+        </StackPanel>
+        
     </Grid>
 </Page>
 

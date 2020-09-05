@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-04T10:45:53.470</Modified>
+      <Modified>2020-09-05T07:50:59.368</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\lab5.exe">
       <PackagePath>entrypoint\lab5.exe</PackagePath>
-      <Modified>2020-09-04T10:45:52.392</Modified>
+      <Modified>2020-09-05T07:50:57.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -134,35 +134,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\lab5.xr.xml">
       <PackagePath>lab5.xr.xml</PackagePath>
-      <Modified>2020-09-04T10:45:52.166</Modified>
+      <Modified>2020-09-05T07:50:57.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.204</Modified>
+      <Modified>2020-09-05T07:50:57.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai3.xbf">
       <PackagePath>bai3.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.204</Modified>
+      <Modified>2020-09-05T07:50:57.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai4.xbf">
       <PackagePath>bai4.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.204</Modified>
+      <Modified>2020-09-05T07:50:57.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai5.xbf">
+      <PackagePath>bai5.xbf</PackagePath>
+      <Modified>2020-09-05T07:50:57.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\bai6.xbf">
+      <PackagePath>bai6.xbf</PackagePath>
+      <Modified>2020-09-05T07:50:57.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.204</Modified>
+      <Modified>2020-09-05T07:50:57.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\Financial.xbf">
       <PackagePath>Financial.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.195</Modified>
+      <Modified>2020-09-05T07:50:57.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\Food.xbf">
       <PackagePath>Food.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.200</Modified>
+      <Modified>2020-09-05T07:50:57.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-04T10:45:52.204</Modified>
+      <Modified>2020-09-05T07:50:57.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -170,11 +178,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-04T10:45:52.777</Modified>
+      <Modified>2020-09-05T06:43:32.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab5\lab5\bin\x86\Debug\Core\lab5.exe">
       <PackagePath>lab5.exe</PackagePath>
-      <Modified>2020-09-04T10:45:53.460</Modified>
+      <Modified>2020-09-05T07:50:59.337</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

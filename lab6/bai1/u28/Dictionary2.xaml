@@ -1,0 +1,7 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:u28"
+    >
+    <x:String x:Key="greeting1">Hello wroldaAS</x:String>
+</ResourceDictionary>

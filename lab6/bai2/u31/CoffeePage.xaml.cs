@@ -22,14 +22,23 @@ namespace u31
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class CoffeePage : Page
-    {
+    {   
+        private string _number;
         private string _roast;
         private string _sweetener;
         private string _cream;
+        
 
         public CoffeePage()
         {
             this.InitializeComponent();
+        }
+
+        private void Number_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = (MenuFlyoutItem)sender;
+            _number = selected.Text;
+            displayResult();
         }
 
         private void Roat_Click(object sender, RoutedEventArgs e)
@@ -42,7 +51,7 @@ namespace u31
         private void Sweetener_Click(object sender, RoutedEventArgs e)
         {
             var selected = (MenuFlyoutItem)sender;
-             _sweetener = selected.Text;
+            _sweetener = selected.Text;
             displayResult();
         }
 
@@ -53,21 +62,30 @@ namespace u31
             displayResult();
         }
 
+        
+
         private void displayResult()
         {
-            if(_roast == "None" || String.IsNullOrEmpty(_roast))
+            if (_number == "None" || String.IsNullOrEmpty(_number))
             {
                 ResultTextBlock.Text = "None";
                 return;
             }
 
-            ResultTextBlock.Text = _roast;
+            ResultTextBlock.Text = _number;
+
+            if (_roast != "None" && !String.IsNullOrEmpty(_roast))
+                ResultTextBlock.Text += " + " + _roast;
 
             if (_cream != "None" && !String.IsNullOrEmpty(_cream))
                 ResultTextBlock.Text += " + " + _cream;
 
             if (_sweetener != "None" && !String.IsNullOrEmpty(_sweetener))
                 ResultTextBlock.Text += " + " + _sweetener;
+
+           
         }
+
+       
     }
 }

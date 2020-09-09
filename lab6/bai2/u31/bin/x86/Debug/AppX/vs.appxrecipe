@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-05T16:36:19.763</Modified>
+      <Modified>2020-09-08T15:01:10.099</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\u31.exe">
       <PackagePath>entrypoint\u31.exe</PackagePath>
-      <Modified>2020-09-05T16:36:19.371</Modified>
+      <Modified>2020-09-08T15:01:08.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -138,31 +138,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\u31.xr.xml">
       <PackagePath>u31.xr.xml</PackagePath>
-      <Modified>2020-09-05T16:31:32.344</Modified>
+      <Modified>2020-09-08T15:01:08.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\CoffeePage.xbf">
       <PackagePath>CoffeePage.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\CompletePage.xbf">
       <PackagePath>CompletePage.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\DonutPage.xbf">
       <PackagePath>DonutPage.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\SchedulePage.xbf">
       <PackagePath>SchedulePage.xbf</PackagePath>
-      <Modified>2020-09-05T16:36:19.227</Modified>
+      <Modified>2020-09-08T15:01:08.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -170,11 +174,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-05T16:17:26.529</Modified>
+      <Modified>2020-09-08T15:01:09.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\Core\u31.exe">
       <PackagePath>u31.exe</PackagePath>
-      <Modified>2020-09-05T16:36:19.760</Modified>
+      <Modified>2020-09-08T15:01:10.089</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -31,6 +31,17 @@
                     Grid.Row="1"
                     Grid.Column="1"
                     HorizontalAlignment="Center">
+            <Button Content="Number"
+                    Style="{StaticResource FlyouButtonStyle}">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="None" Click="Number_Click"/>
+                        <MenuFlyoutItem Text="1" Click="Number_Click"/>
+                        <MenuFlyoutItem Text="2" Click="Number_Click"/>
+                        <MenuFlyoutItem Text="3" Click="Number_Click"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
             <Button Content="Roast"
                     Style="{StaticResource FlyouButtonStyle}">
                 <Button.Flyout>
@@ -47,6 +58,7 @@
                     <MenuFlyout>
                         <MenuFlyoutItem Text="None" Click="Sweetener_Click"/>
                         <MenuFlyoutItem Text="Suger" Click="Sweetener_Click"/>
+                        <MenuFlyoutItem Text="No Suger" Click="Sweetener_Click"/>
                     </MenuFlyout>
                 </Button.Flyout>
             </Button>

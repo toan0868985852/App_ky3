@@ -31,13 +31,24 @@
                     Grid.Row="1"
                     Grid.Column="1"
                     HorizontalAlignment="Center">
+            <Button Content="Number"
+                    Style="{StaticResource FlyouButtonStyle}">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem x:ConnectionId='12' Text="None"                     />
+                        <MenuFlyoutItem x:ConnectionId='13' Text="1"                     />
+                        <MenuFlyoutItem x:ConnectionId='14' Text="2"                     />
+                        <MenuFlyoutItem x:ConnectionId='15' Text="3"                     />
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
             <Button Content="Roast"
                     Style="{StaticResource FlyouButtonStyle}">
                 <Button.Flyout>
                     <MenuFlyout>
-                        <MenuFlyoutItem x:ConnectionId='8' Text="None"                   />
-                        <MenuFlyoutItem x:ConnectionId='9' Text="Dark"                   />
-                        <MenuFlyoutItem x:ConnectionId='10' Text="Medium"                   />
+                        <MenuFlyoutItem x:ConnectionId='9' Text="None"                   />
+                        <MenuFlyoutItem x:ConnectionId='10' Text="Dark"                   />
+                        <MenuFlyoutItem x:ConnectionId='11' Text="Medium"                   />
                     </MenuFlyout>
                 </Button.Flyout>
             </Button>
@@ -47,6 +58,7 @@
                     <MenuFlyout>
                         <MenuFlyoutItem x:ConnectionId='6' Text="None"                        />
                         <MenuFlyoutItem x:ConnectionId='7' Text="Suger"                        />
+                        <MenuFlyoutItem x:ConnectionId='8' Text="No Suger"                        />
                     </MenuFlyout>
                 </Button.Flyout>
             </Button>

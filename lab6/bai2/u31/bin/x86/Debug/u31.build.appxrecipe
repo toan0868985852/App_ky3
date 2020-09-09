@@ -109,6 +109,9 @@
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab6\bai2\u31\bin\x86\Debug\CoffeePage.xbf">
       <PackagePath>CoffeePage.xbf</PackagePath>
     </AppxPackagedFile>

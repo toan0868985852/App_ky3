@@ -18,7 +18,7 @@
     </Page.Resources>
     <StackPanel>
         <TextBlock Text="{StaticResource greeting1}"
-                    Foreground="{StaticResource Brush}"/>
+                   Foreground="{StaticResource Brush}"/>
         <Button Content="My Button Style Example"
                 Height="100"
                 Style="{StaticResource MyButtonStyle}"/>

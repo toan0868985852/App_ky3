@@ -6,19 +6,23 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
-    <Grid Name="ColorGrid">
-        <TextBlock Name="MessageTextBlock"
-                   Text="Hello VisualstataManager"/>
+    >
+
+    <Grid Name="ColorGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
         <VisualStateManager.VisualStateGroups>
+
             <VisualStateGroup x:Name="visualStateGroup">
+
                 <VisualState x:Name="visualStatePhone">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="ColorGrid.Backgroud" Value="Red"/>
+                        <Setter Target="ColorGrid.Background" Value="Red"/>
+                        <Setter Target="Image.Width" Value="100" />
+                        <Setter Target="Image.Height" Value="100" />
                         <Setter Target="MessageTextBlock.FontSize" Value="18"/>
                     </VisualState.Setters>
                 </VisualState>
@@ -27,7 +31,9 @@
                         <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="ColorGrid.Backgroud" Value="Yellow"/>
+                        <Setter Target="ColorGrid.Background" Value="Yellow"/>
+                        <Setter Target="Image.Width" Value="300" />
+                        <Setter Target="Image.Height" Value="300" />
                         <Setter Target="MessageTextBlock.FontSize" Value="36"/>
                     </VisualState.Setters>
                 </VisualState>
@@ -36,11 +42,17 @@
                         <AdaptiveTrigger MinWindowWidth="800"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="ColorGrid.Backgroud" Value="Blue"/>
+                        <Setter Target="ColorGrid.Background" Value="Blue"/>
+                        <Setter Target="Image.Width" Value="500" />
+                        <Setter Target="Image.Height" Value="500" />
                         <Setter Target="MessageTextBlock.FontSize" Value="54"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
+        <TextBlock Name="MessageTextBlock"
+                   Text="Hello VisualstataManager" />
+        <Image Name="Image" Source="Assets/male-01.png"/>
+
     </Grid>
 </Page>

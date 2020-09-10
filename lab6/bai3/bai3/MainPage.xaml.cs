@@ -26,5 +26,10 @@ namespace bai3
         {
             this.InitializeComponent();
         }
+
+        private void MessageTextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

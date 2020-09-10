@@ -43,3 +43,8 @@ E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\qualifiers.txt.intermediate
 E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\ProjectArchitectures.txt
 E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+E:\scholl\ky3_c#\lab6\bai3\bai3\bin\x86\Debug\bai2.xbf
+E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\bai2.g.i.cs
+E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\bai2.g.cs
+E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\bai2.xaml
+E:\scholl\ky3_c#\lab6\bai3\bai3\obj\x86\Debug\bai2.xbf

@@ -8157,9 +8157,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\scholl\\ky3_c#\\bai1\\lab9\\lab9-02\\lab9-02.csproj",
-      "projectName": "lab9-02",
-      "projectPath": "E:\\scholl\\ky3_c#\\bai1\\lab9\\lab9-02\\lab9-02.csproj",
+      "projectUniqueName": "E:\\scholl\\ky3_c#\\bai1\\lab9\\lab9-02\\lab9_02.csproj",
+      "projectName": "lab9_02",
+      "projectPath": "E:\\scholl\\ky3_c#\\bai1\\lab9\\lab9-02\\lab9_02.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "E:\\scholl\\ky3_c#\\bai1\\lab9\\lab9-02\\obj\\",
       "projectStyle": "PackageReference",

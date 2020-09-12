@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{91C506B1-B114-4BA3-87BE-EB32745CCFE9}</ProjectGuid>
+    <ProjectGuid>{86F34B10-54EC-4EDB-8C2E-6F78BDFC2C90}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>lab9_02</RootNamespace>
-    <AssemblyName>lab9-02</AssemblyName>
+    <RootNamespace>bai9</RootNamespace>
+    <AssemblyName>bai9</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
@@ -122,6 +122,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuItem.cs" />
+    <Compile Include="Model\Sound.cs" />
+    <Compile Include="Model\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +159,8 @@
     <Content Include="Assets\PackageAppXManifest\24x24.png" />
     <Content Include="Assets\PackageAppXManifest\300x300.png" />
     <Content Include="Assets\PackageAppXManifest\310x310.scale-100.png" />
+    <Content Include="Assets\PackageAppXManifest\310x310.scale-200.png" />
+    <Content Include="Assets\PackageAppXManifest\310x310.scale-400.png" />
     <Content Include="Assets\PackageAppXManifest\50x50-large.png" />
     <Content Include="Assets\PackageAppXManifest\50x50.png" />
     <Content Include="Assets\PackageAppXManifest\620x300.png" />

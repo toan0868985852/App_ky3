@@ -41,6 +41,7 @@ namespace lab7_2
             Icons.Add(new Icon { Icons = "Assets/female-02.png" });
             Icons.Add(new Icon { Icons = "Assets/female-03.png" });
             
+
             Contacts = new ObservableCollection<Contact>();
         }
 

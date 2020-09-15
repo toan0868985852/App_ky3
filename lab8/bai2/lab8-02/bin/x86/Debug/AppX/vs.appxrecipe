@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-10T18:09:41.125</Modified>
+      <Modified>2020-09-15T06:59:18.915</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\lab8-02.exe">
       <PackagePath>entrypoint\lab8-02.exe</PackagePath>
-      <Modified>2020-09-10T18:09:40.649</Modified>
+      <Modified>2020-09-15T06:59:18.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -126,19 +126,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\lab8-02.xr.xml">
       <PackagePath>lab8-02.xr.xml</PackagePath>
-      <Modified>2020-09-10T18:08:00.121</Modified>
+      <Modified>2020-09-15T06:57:02.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-10T18:09:40.473</Modified>
+      <Modified>2020-09-15T06:58:02.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-10T18:09:40.473</Modified>
+      <Modified>2020-09-15T06:58:02.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\NewsItemControl.xbf">
       <PackagePath>NewsItemControl.xbf</PackagePath>
-      <Modified>2020-09-10T18:09:40.473</Modified>
+      <Modified>2020-09-15T06:59:18.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -150,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\scholl\ky3_c#\lab8\bai2\lab8-02\bin\x86\Debug\Core\lab8-02.exe">
       <PackagePath>lab8-02.exe</PackagePath>
-      <Modified>2020-09-10T18:09:41.119</Modified>
+      <Modified>2020-09-15T06:59:18.911</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -10,21 +10,48 @@
     d:DesignWidth="400">
 
     <Grid Name="MainPanel" Background="White" Margin="10" Height="275" Width="200">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="NarrowLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        
+                        <Setter Target="MainPanel.Width" Value="200"/>
+                        <Setter Target="MainPanel.Height" Value="275"/>
+                        <Setter Target="Content.FontSize" Value="18"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="WideLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                       
+                        <Setter Target="MainPanel.Width" Value="400"/>
+                        <Setter Target="MainPanel.Height" Value="400"/>
+                        <Setter Target="Content.FontSize" Value="26"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
         <Image Name="MyImage" Source="{x:Bind NewsItem.Image}"/>
         <RelativePanel Grid.Row="1" Margin="10">
             <TextBlock Text="{x:Bind NewsItem.HeadLine}"
-                       Name="HeadlineTextBox"
+                       Name="Content"
                        Foreground="Black"
                        RelativePanel.AlignTopWithPanel="True"
                        FontSize="18"
                        TextWrapping="Wrap"/>
             <TextBlock Text="{x:Bind NewsItem.Subhead}"
                        Foreground="Black"
-                       RelativePanel.Below="HeadlineTextBox"
+                       RelativePanel.Below="Content"
                        TextWrapping="Wrap"/>
             <TextBlock Text="{x:Bind NewsItem.DateLine}"
                        Foreground="Black"
